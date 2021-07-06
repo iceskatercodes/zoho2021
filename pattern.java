@@ -1,5 +1,7 @@
+public class Patern
+{
 	public static void main(String[] args) {
-		String input = "WELCOME";
+		String input = "water";
 		String newInput = input.substring(input.length()/2) + input.substring(0,input.length()/2);
 		String printText = "";
 		for(int i=0;i<newInput.length();i++) {
@@ -10,3 +12,4 @@
 		    System.out.println("");
 		}
 	}
+}
